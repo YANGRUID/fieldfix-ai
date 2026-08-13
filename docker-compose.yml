@@ -1,0 +1,14 @@
+services:
+  api:
+    build: {context: ., dockerfile: Dockerfile.backend}
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4o-mini}
+      OPENAI_INPUT_USD_PER_M: ${OPENAI_INPUT_USD_PER_M:-0.15}
+      OPENAI_OUTPUT_USD_PER_M: ${OPENAI_OUTPUT_USD_PER_M:-0.60}
+    ports: ["8000:8000"]
+    healthcheck: {test: ["CMD","python","-c","import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health')"], interval: 10s, timeout: 3s, retries: 5}
+  web:
+    build: {context: ., dockerfile: Dockerfile.frontend}
+    ports: ["5173:80"]
+    depends_on: {api: {condition: service_healthy}}
