@@ -1,0 +1,3 @@
+export type Evidence={id:string;source_type:'manual'|'work_order';title:string;excerpt:string;locator:string;score:number};
+export type Diagnosis={case_id:string;status:string;summary:string;root_causes:{cause:string;confidence:number;evidence_ids:string[];rationale:string}[];next_questions:string[];suggested_parts:{sku:string;name:string;quantity:number;reason:string}[];repair_plan:{order:number;instruction:string;safety_note?:string;evidence_ids:string[]}[];evidence:Evidence[];limitations:string[]};
+export type Envelope={diagnosis:Diagnosis;trace:{step:string;status:string;detail:string;duration_ms:number}[];latency_ms:number;estimated_cost_usd:number;mode:string};
