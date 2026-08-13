@@ -1,0 +1,6 @@
+[
+  {"id":"WO-1042","source_type":"work_order","title":"AX-200 repeated T17 trip","locator":"Closed work order 1042","content":"Technician found a dust-blocked intake filter and enclosure temperature of 51 C. Filter replacement and fan cleaning restored operation; load current returned below nameplate rating."},
+  {"id":"WO-1088","source_type":"work_order","title":"AX-200 hot motor and high current","locator":"Closed work order 1088","content":"High motor current persisted after airflow cleaning. Coupling was isolated and pump shaft binding was confirmed. Bearing service resolved the thermal trip."},
+  {"id":"WO-1115","source_type":"work_order","title":"Intermittent AX-200 start failure","locator":"Closed work order 1115","content":"A loose M12 feedback connector caused intermittent start faults. Pin inspection and connector replacement resolved the issue after supply voltage tested normal."},
+  {"id":"WO-1201","source_type":"work_order","title":"CV-40 overload after belt change","locator":"Closed work order 1201","content":"Conveyor overload began after maintenance. Belt tension exceeded specification and current was high. Correct tension and alignment restored normal current."}
+]

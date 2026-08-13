@@ -1,0 +1,6 @@
+[
+  {"id":"MAN-PMP-01-S4.2","source_type":"manual","title":"AX-200 Pump Drive Service Manual","locator":"Section 4.2 — Thermal trip troubleshooting","content":"For alarm T17 or overheating, isolate energy and inspect intake filter, cooling fan, and enclosure clearance. Measure motor current against nameplate. Do not replace the temperature sensor until airflow and load are verified."},
+  {"id":"MAN-PMP-01-S5.1","source_type":"manual","title":"AX-200 Pump Drive Service Manual","locator":"Section 5.1 — Electrical checks","content":"For intermittent start or undervoltage faults, verify line voltage, phase balance, terminal torque, connector pins, and protective earth before replacing the controller."},
+  {"id":"MAN-PMP-01-S7.3","source_type":"manual","title":"AX-200 Pump Drive Service Manual","locator":"Section 7.3 — Temperature sensor","content":"With power isolated, validate the 10k temperature sensor resistance and harness continuity. Sensor replacement is justified only when readings remain outside the published tolerance."},
+  {"id":"MAN-CNV-02-S3.8","source_type":"manual","title":"CV-40 Conveyor Maintenance Guide","locator":"Section 3.8 — Drive overload","content":"An overload trip may result from bearing drag, belt misalignment, product obstruction, or excessive tension. Lock out the conveyor and confirm free mechanical travel before motor work."}
+]
