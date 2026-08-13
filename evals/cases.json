@@ -1,0 +1,22 @@
+[
+{"id":"E01","asset":"AX-200","symptom":"T17 trip after 20 minutes, weak airflow","expected_evidence":"MAN-PMP-01-S4.2","expected_status":"complete"},
+{"id":"E02","asset":"AX-200","symptom":"Overheat alarm and dirty intake filter","expected_evidence":"WO-1042","expected_status":"complete"},
+{"id":"E03","asset":"AX-200","symptom":"Hot motor with high load current","expected_evidence":"WO-1088","expected_status":"complete"},
+{"id":"E04","asset":"AX-200","symptom":"Temperature sensor reads out of range","expected_evidence":"MAN-PMP-01-S7.3","expected_status":"complete"},
+{"id":"E05","asset":"AX-200","symptom":"Intermittent start and loose connector","expected_evidence":"WO-1115","expected_status":"complete"},
+{"id":"E06","asset":"AX-200","symptom":"Undervoltage and phase imbalance","expected_evidence":"MAN-PMP-01-S5.1","expected_status":"complete"},
+{"id":"E07","asset":"CV-40","symptom":"Conveyor overload and bearing drag","expected_evidence":"MAN-CNV-02-S3.8","expected_status":"complete"},
+{"id":"E08","asset":"CV-40","symptom":"Overload after belt tension change","expected_evidence":"WO-1201","expected_status":"complete"},
+{"id":"E09","asset":"CV-40","symptom":"Belt misalignment causes high current","expected_evidence":"WO-1201","expected_status":"complete"},
+{"id":"E10","asset":"AX-200","symptom":"Cooling fan blocked and enclosure hot","expected_evidence":"MAN-PMP-01-S4.2","expected_status":"complete"},
+{"id":"E11","asset":"AX-200","symptom":"Protective earth and terminal need inspection","expected_evidence":"MAN-PMP-01-S5.1","expected_status":"complete"},
+{"id":"E12","asset":"AX-200","symptom":"Harness continuity temperature sensor","expected_evidence":"MAN-PMP-01-S7.3","expected_status":"complete"},
+{"id":"E13","asset":"CV-40","symptom":"Product obstruction overload trip","expected_evidence":"MAN-CNV-02-S3.8","expected_status":"complete"},
+{"id":"E14","asset":"AX-200","symptom":"Dust filter causes T17","expected_evidence":"WO-1042","expected_status":"complete"},
+{"id":"E15","asset":"AX-200","symptom":"Pump shaft binding thermal trip","expected_evidence":"WO-1088","expected_status":"complete"},
+{"id":"E16","asset":"AX-200","symptom":"M12 feedback pins damaged start fault","expected_evidence":"WO-1115","expected_status":"complete"},
+{"id":"E17","asset":"CV-40","symptom":"Excessive belt tension overload","expected_evidence":"WO-1201","expected_status":"complete"},
+{"id":"E18","asset":"ZZ-999","symptom":"Purple display flickers mysteriously","expected_evidence":null,"expected_status":"insufficient_evidence"},
+{"id":"E19","asset":"UNKNOWN","symptom":"Robot sings while idle unknown issue","expected_evidence":null,"expected_status":"insufficient_evidence"},
+{"id":"E20","asset":"QX-1","symptom":"Hydraulic oil smells sweet and screen is blue","expected_evidence":null,"expected_status":"insufficient_evidence"}
+]
