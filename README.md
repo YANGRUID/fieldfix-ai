@@ -96,6 +96,12 @@ AI accelerated scaffolding, UX copy, test generation, and review, but the engine
 
 For production, add authenticated users, asset-scoped authorization, audit persistence, calibrated evals with domain experts, real search infrastructure, prompt/version tracking, observability, and a formal safety case.
 
+## License
+
+Copyright © 2026 Ruidong Yang.
+
+This project is licensed under the MIT License. See `LICENSE` for details.
+
 ## Repository map
 
 ```text
